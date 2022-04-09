@@ -1,0 +1,88 @@
+@import url(./global.css);
+
+#container {
+    width: 144rem ;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inform {
+    width: 110rem;
+    height: 45rem;
+    background-color: hsl(244, 38%, 16%);;
+    border-radius: .8rem;
+    display: flex;
+
+}
+
+#inform-text {
+    width: 50%;
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#inform-text p {
+    color: hsl(0, 0%, 67%);
+    font-size: 1.5rem;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 0 0 11rem 0;
+    line-height: 2rem;
+}
+
+
+
+#inform-text h1, h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 3.7rem;
+    text-align: start;
+}
+
+#inform-text h1{
+    padding: 0 0 3rem 0;
+}
+
+#inform-text h2 {
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+}
+
+#inform-text h1 span {
+    color: hsl(277, 64%, 61%);
+}
+#inform-img{
+    width: 50%;
+    background-color: hsla(278, 97%, 34%, 0.996);
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+#inform-img img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
+    opacity: 0.5;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#attribution {
+    color: white;
+}
+
+#attribution a {
+    text-decoration: none;
+    color: rgb(197, 142, 253);
+}
