@@ -1,1 +1,59 @@
 @import url(./global.css);
+
+@media (max-width: 656px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    #container {
+        width: 98vw ;
+        height: 165rem;
+        display: flex;
+    }
+
+    #inform {
+        display: flex;
+        flex-direction: column;
+        width: 72%;
+        height: 55%;
+        padding: 0;
+    }
+
+    #inform #inform-text {
+        order: 2;
+        height: 4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #inform #inform-text h1 {
+        font-size: 2.8rem;
+        
+    }
+
+    #inform #inform-text p {
+        padding:0 0 3rem 0;
+    }
+
+
+    #inform #inform-img {
+        width: 100%;
+        border-radius: .8rem .8rem 0 0;
+    }
+    
+    #inform #inform-img img {
+        border-radius: .8rem .8rem 0 0;
+        line-height: 2rem;
+    }
+
+    #inform .cards {
+        flex-direction: column;
+        border: 1px black;
+        text-align: justify;
+    }
+
+    #inform .cards p, h2{
+        text-align: center;
+    }
+}
